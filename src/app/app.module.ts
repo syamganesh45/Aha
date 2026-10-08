@@ -14,6 +14,9 @@ import { WatchInTeluguAndTamilComponent } from './navigatingcomponent/watch-in-t
 import { TrendingNowComponent } from './navigatingcomponent/trending-now/trending-now.component';
 import { ActionComponent } from './navigatingcomponent/action/action.component';
 import { ThrillerComponent } from './navigatingcomponent/thriller/thriller.component';
+import { HorrorComponent } from './navigatingcomponent/horror/horror.component';
+import { SciFiComponent } from './navigatingcomponent/sci-fi/sci-fi.component';
+import { FamilyDramaComponent } from './navigatingcomponent/family-drama/family-drama.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ThrillerComponent } from './navigatingcomponent/thriller/thriller.compo
      WatchInTeluguAndTamilComponent,
      TrendingNowComponent,
      ActionComponent,
-     ThrillerComponent
+     ThrillerComponent,
+     HorrorComponent,
+     SciFiComponent,
+     FamilyDramaComponent
   ],
   imports: [
     BrowserModule,
